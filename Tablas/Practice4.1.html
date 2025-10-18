@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 4.1 HTML tables exercises</title>
+</head>
+<body>
+    <h1>Ejemplos de tablas</h1>
+    <h2>Tabla con bordes "colapsados"</h2>
+    <style>table {
+    border-collapse: collapse;
+    }
+    th, td{
+    border:1px solid black;
+    }
+    </style>
+<table>
+        <tr>
+            <td>Elemento 1</td>
+            <td>Elemento 2</td>
+        </tr>
+        <tr>
+            <td>Elemento 3</td>
+            <td>Elemento 4</td>
+        </tr>
+    </table>
+    <h2>Tabla con celdas de cabecera y caption</h2>
+    <table>
+        <caption>Grandes jugadores colombianos</caption>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido 1</th>
+            <th>Apellido 2</th>
+        </tr>
+        <tr>
+            <td>José René</td>
+            <td>Higuita</td>
+            <td>zapata</td>
+        </tr>
+        <tr>
+            <td>Carlos Alberto</td>
+            <td>Calderrama</td>
+            <td>Palacio</td>
+        </tr>
+    </table>
+    <h2>Tabla con atributos rowspan y colspan</h2>
+    <table>
+        <tr>
+            <td rowspan="2">Elemento 1</td>
+            <td>Elemento 2</td>
+            <td>Elemento 3</td>
+        </tr>
+        <tr>
+            <td>Elemento 4</td>
+            <td>Elemento 5</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td colspan="3">Elemento 1-A</td>
+        </tr>
+        <tr>
+            <td>Elemento 2-A</td>
+            <td>Elemento 2-B</td>
+            <td>Elemento 2-C</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td rowspan="3">Elemento 1</td>
+            <th colspan="2">Elementos</th>
+            <td rowspan="3">Elemento 2</td>
+        </tr>
+        <tr>
+            <td>Elemento 3</td>
+            <td>Elemento 4</td>
+        </tr>
+        <tr>
+            <td>Elemento 5</td>
+            <td>Elemento 6</td>
+        </tr>
+        <tr>
+            <td colspan="4">Elemento 7</td>
+        </tr>
+    </table>
+</body>
+</html>
