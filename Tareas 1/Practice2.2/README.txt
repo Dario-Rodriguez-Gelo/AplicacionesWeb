@@ -1,0 +1,1 @@
+Buenos días maestro, esta es mi tarea. Sin embargo, no entiendo que significa la parte de "Crea un enlace al archivopdf del libro que debe estar en el escritorio". No se si he hecho algo mal y agradecería si me lo pudieras aclarar, muchas gracias

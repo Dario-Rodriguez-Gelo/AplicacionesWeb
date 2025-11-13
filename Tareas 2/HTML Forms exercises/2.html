@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo cuestionario</title>
+</head>
+<body>
+    <div style="border: 3px solid black; padding-left: 10px; padding-bottom: 5px;">
+        <h1>Examen de HTML</h1>
+        <form action="Formularioenviado.html" method="post">
+        <!-- Aquí empieza toda la modificación -->
+        Curso: <input type="text" readonly value="2ºSMR">
+        Nombre y apellidos: <input type="text" placeholder="Ingrese su nombre">
+        Fecha: <input type="week"><br><br>
+        Nota: <input type="range" value="5" min="0" max="10" step="0.25" oninput="this.nextElementSibling.value = this.value"> <output>5</output>
+        <!-- Aquí acaba la modificación -->
+                <ol>
+        <h3><li>¿Qué significa HTML?</h3></li>
+        <input type="radio" required id="1" name="pregunta1"> Hypertext Markup Language <br>
+        <input type="radio" id="2" name="pregunta1"> Hypermark Trade Language <br>
+        <input type="radio" id="3" name="pregunta1"> Hyperspace Time Markup <br>
+        <input type="radio" id="4" name="pregunta1"> Hypertext Media Language <br>
+        <hr>
+        <h3><li>¿Cuál de los siguientes nombres no corresponde a un elemento HTML? <select required id="2" name="2">
+            <option value="SCRIPT">SCRIPT</option>
+            <option value="Patatas">Patatas</option>
+            <option value="Hypertext">Hypertext</option>
+        </select></h3></li>
+        <hr>
+        <h3><li>¿Qué elemento permite crear un formulario en HTML? <input required type="text" id="3" name="3"></h3></li>
+        <hr>
+        <h3><li>¿Cuáles de los siguientes elementos HTML permiten colocar un dato de tipo arbitrario en un documento HTML?</h3>
+            <input type="checkbox" required id="1" name="pregunta4"> IMG
+        <input type="checkbox" id="2" name="pregunta4"> EMBED 
+        <input type="checkbox" id="3" name="pregunta4"> APPLET 
+        <input type="checkbox" id="4" name="pregunta4"> OBJECT 
+        </li>
+        <hr>
+        <h3><li>¿Cuáles de los siguientes formatos de imagen son soportados por el elemento IMG? <select required id="2" name="2" size="3">
+            <option value="GIF">GIF</option>
+            <option value="PCX">PCX</option>
+            <option value="TIFF">TIFF</option>
+            <option value="JPEG">JPEG</option>
+        </select></h3></li>
+        </ol>
+        <input type="submit" value="Enviar examen"> <input type="reset" value="Borrar examen">
+        </form>
+        
+    </div>
+</body>
+</html>

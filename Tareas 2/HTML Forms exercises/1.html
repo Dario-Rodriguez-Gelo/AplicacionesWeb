@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer formulario</title>
+</head>
+<body>
+    <form action="Formularioenviado.html" method="post">
+        <h1>Cuestionario de información</h1>
+        Por favor, rellene el siguiente cuestionario<br><br>
+        <h2>Datos personales</h2>
+        Nombre: <input type="text" required name="Nombre"><br><br>
+        Edad: <input type="radio" id="-20" name="Edad" required> menos de 20
+        <input type="radio" id="21-30" name="Edad" required> de 21 a 30
+        <input type="radio" id="31-40" name="Edad" required> de 31 a 40
+        <input type="radio" id="+40" name="Edad" required> más de 40<br><br>
+        Profesión: <select required id="profesion" name="profesion">
+            <option value="" disabled selected>Seleccione una opción</option>
+            <option value="Funcionario">Funcionario</option>
+            <option value="Administrador de base de datos">Administrador de base de datos</option>
+            <option value="Programador">Programador</option>
+        </select><br><br>
+        
+        <h2>Datos de la vivienda</h2>
+        Número de dormitorios: <input type="radio" id="1" name="dormitorios" required> 1
+        <input type="radio" id="2" name="dormitorios" required> 2
+        <input type="radio" id="3" name="dormitorios" required> 3
+        <input type="radio" id="4" name="dormitorios" required> 4
+        <input type="radio" id="5" name="dormitorios" required> 5<br><br>
+        Tipo de vivienda: <select required id="vivienda" name="vivienda">
+            <option value="" disabled selected>Seleccione una opción</option>
+            <option value="Piso">Piso</option>
+            <option value="Casa">Casa</option>
+            <option value="Chalet">Chalet</option>
+        </select><br><br>
+        Precio: <input type="number" required name="precio" style="width: 75px;"> € <br><br>
+        Zona: <select required id="vivienda" name="vivienda" size="4" style="border: 3px double black;">
+            <option value="Centro">Centro</option>
+            <option value="Nervion">Nervion</option>
+            <option value="Triana">Triana</option>
+            <option value="Macarena">Macarena</option>
+            <option value="Este">Este</option>
+        </select><br><br>
+        Extras (marque todos los que desee): <input type="checkbox" id="extra" name="Piscina"> Piscina 
+        <input type="checkbox"> Jardín
+        <input type="checkbox"> Garaje
+        <input type="checkbox"> Sauna<br><br>
+        <input type="submit" value="Enviar cuestionario"> <input type="reset" value="Borrar cuestionario">
+    </form>
+</body>
+</html>

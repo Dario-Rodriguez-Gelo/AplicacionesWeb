@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 5</title>
+</head>
+<body>
+    <form action="Formularioenviado.html" method="post">
+    <fieldset>
+        <legend>Preferencias</legend>
+        <select name="speed" id="speed" size="4">
+                        <option id="100">100_mbits</option>
+                        <option id="1000">1000_mbits</option>
+                </select><br>
+        DNI: <input type="text" name="DNI" placeholder="Ingrese su DNI"><br>
+        Nombre: <input type="text" name="nombre" placeholder="Ingrese su nombre"><br>
+        Apellidos: <input type="text" name="surname" placeholder="Ingrese sus apellidos"><br>
+        Email: <input type="email" name="DNI" placeholder="Ejemplo@mail.com"><br>
+        Elija un color: <input type="color" name="color" value="#000000"><br>
+            <textarea name="escribir" rows="6" cols="49" placeholder="Utilice este cuadro para escribir"></textarea><br>
+        <input type="radio" id="AMD" name="1"> AMD <br>
+        <input type="radio" id="i5" name="1"> Intel i5 <br>
+        <input type="radio" id="i7" name="1"> Intel i7<br>
+        Elija una hora<input type="time"><br>
+        <input type="radio" required id="red2G" name="red"> 2G <br>
+        <input type="radio" id="red3G" name="red"> 3G <br>
+        <input type="radio" id="red4G" name="red"> 4G <br>
+        <input type="submit" value="Enviar Solicitud"> <input type="reset" value="Borrar">
+    </fieldset>
+    </form>
+</body>
+</html>

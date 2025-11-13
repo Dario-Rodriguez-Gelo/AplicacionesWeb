@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 4</title>
+</head>
+<body>
+    <form action="Formularioenviado.html" method="post">
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            Elija una fecha: <input type="date" name="fecha"><br>
+            Elija un fichero: <input type="file" name="file"><br>
+            <input type="radio" id="AMD" name="1"> AMD <input type="radio" id="i5" name="1"> Intel i5 <input type="radio" id="i7" name="1"> Intel i7
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <input type="radio" id="mates" name="2"> Matemáticas <input type="radio" id="history" name="2"> Historia <input type="radio" id="geo" name="2"> Greografía <input type="radio" id="lengua" name="2"> Lengua
+            <br>Nombre: <input type="text" name="nombre" placeholder="Ingrese su nombre"><br>
+            Apellidos: <input type="text" name="lastnames" placeholder="Ingrese sus apellidos"><br>
+            Dirección: <input type="text" name="direccion" placeholder="Ingrese su dirección"><br>
+            Elija un color: <input type="color" name="color" value="#000000"><br>
+            <textarea name="escribir" rows="5" cols="50" placeholder="Utilice este cuadro para escribir"></textarea><br>
+            Elija una fecha <input type="date" name="date"><br>
+            Idioma: <select name="idioma" id="idioma">
+                        <option id="Ingles">Ingles</option>
+                        <option id="Aleman">Aleman</option>
+                        <option id="Frances">Frances</option>
+                    </select><br>
+            Elija una hora: <input type="time" name="time" id=""><br>
+            Elija un fichero: <input type="file" name="file"><br>
+            Género: <input type="checkbox" name="genero" id="mujer"> Mujer <input type="checkbox" name="genero" id="hombre"> Hombre 
+        </fieldset>
+        <input type="submit" value="Enviar Solicitud"> <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>

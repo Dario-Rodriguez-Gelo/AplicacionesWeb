@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PaginaCSS.css">
+    <title>Contact</title>
+</head>
+<body>
+    <a id="Arriba"></a>
+    <div class="volver"><a href="#Arriba" class="enlace"><img src="Images/flechita.png" width="50px"></a></p></div>
+    <div class="Arriba">
+        <a href="Personal_Info.html" class="Boton">Personal Information</a>
+        <a href="Products.html" class="Boton">Products</a>
+        <a href="Service.html" class="Boton">Personalized service</a>
+        <a href="Contact.html" class="Boton" style="background-color: rgb(204, 136, 223);">Contact</a>
+        <a href="Social Networks.html" class="Boton">Social networks</a>
+        <a href="index.html" class="Boton">Menu</a>
+    </div>
+    <script src="nombre.js"></script>
+    <div class="Normal">
+        <center><h1 style="display: inline-block;">Contact</h1><h1 class="parpadeo" style="display: inline-block;">|</h1></center>
+        <center><h2>Feel free to contact me personally if you need something more personalized or unique!</h2></center>
+        <p style="font-size: 40px;">Whatsapp: <a class="enlace"><img src="Images/WhatsApp_icon.png" alt="Whatsapp" width="40"> Send a message to +34 679 82 00 02</a></p>
+        <p style="font-size: 40px;">Email: <a class="enlace" href="mailto:skydari438@gmail.com">📧 Click here to contact me</a><br><br></p>
+        <center><h2>Does the email link not work? Don't worry, send an email to skydari438@gmail.com following the steps on this video:</h2></center>
+        <center><video src="Images/video.mp4" controls width="640" height="360">
+            Im sorry, but your browser does not support the video element.
+        </video></center>
+        <div id="form"><br><br><br><br><br><br>
+            <center><h1 style="display: inline-block;">Form</h1><h1 class="parpadeo" style="display: inline-block;">|</h1></center>
+        <center><h2>Please, fill this form to contact me</h2></center>
+            <form method="post">
+            <fieldset style="background-color: gray; border: 4px solid green; width: fit-content;">
+                <legend style="background-color: black; border: 4px solid green ;">Contact Information</legend>
+                <table>
+                    <tr>
+                        <td colspan="2">Name:</td>
+                        <td colspan="2">Last Name:</td>
+                        <td colspan="2">DNI (leave blank if not from Spain): </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" id="nombre" readonly></td>
+                        <td colspan="2"><input type="text" id="apellido" required></td>
+                        <td colspan="2"><input type="text" id="DNI" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Telephone number:</td>
+                        <td colspan="3">Email Adress</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <select name="pais" id="pais" required>
+                                <option id="España">+34</option>
+                                <option id="Francia">+33</option>
+                                <option id="UK">+44</option>
+                                <option id="Portugal">+351</option>
+                            </select> <input type="number" id="telefono" placeholder="XXX XX XX XX" required>
+                        </td>
+                        <td colspan="3"><input type="email" id="email" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <fieldset style="background-color: gray; border: 4px solid green; width: fit-content;">
+                <legend style="background-color: black; border: 4px solid green ;">Type of service</legend>
+                <table>
+                    <tr>
+                        <td>What services do you need?</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="checkbox" name="servicio" id="1"> Custom 3d print<br>
+                        <input type="checkbox" name="servicio" id="2"> Teacher<br>
+                        <input type="checkbox" name="servicio" id="3"> IT repairing<br>
+                        <input type="checkbox" name="servicio" id="4"> Website<br>
+                        <input type="checkbox" name="servicio" id="5"> Other, please specify: <input type="text" name="servicio" id="5" readonly value="Please, specify via Extras">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Are you willing to discuss prices?</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="radio" name="siono" id="1"> Yes<br>
+                        <input type="radio" name="siono" id="2"> No<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Please, select on which date you would like the service:</td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <input type="submit" value="Send"> <input type="reset" value="Start over">
+            </form>
+            <br><br>
+            </div>
+    </div>
+<script src="nombre.js"></script>
+<script>
+// Este script lo que hace es poner como valor en el input con id "nombre", el nombre que pusimos en el script anterior. Aunque solo funciona con uno, podría hacer una variable y un forEach
+// para que sirviera para más, pero despues de todo solo hay 1 campo que necesite el nombre
+document.getElementById("nombre").value = nombre;
+</script>
+</body>
+</html>
