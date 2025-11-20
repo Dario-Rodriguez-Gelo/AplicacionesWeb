@@ -1,0 +1,34 @@
+¿Qué es?
+La Raspberry Pi es un Mini-PC de placa única. Fue desarrollado por la Raspberry Pi Foundation como proyecto sin ánimo de lucro para promocionar la enseñanza de la informática en las escuelas. Su objetivo es el de poner en manos de las personas de todo el mundo el poder de la informática y la creación digital. El proyecto ha acabado siendo más popular de lo que se esperaba debido a su bajo precio y la Raspberry Pi se ha convertido en el mini-pc más popular, utilizándose en una gran variedad de proyectos diferentes.
+
+
+¿Qué se puede hacer?
+Programación
+El sistema operativo Raspbian ya viene con soporte para aprender a programar con Scratch, Python, desarrollo web, etc.
+Robótica
+MEdiante su puerto GPIO se pueden realizar infinidad de proyectos electrónicos y de robótica
+Como PC de escritorio
+Para un uso ofimático, navegación por Internet, edición de imágenes, etc.
+Centro multimedia
+Como cenro multimedia conectada a una TV o emulador para videojuegos
+Y un largo etcétera
+
+Sistemas Operativos
+Raspberry Pi usa principalmente sistemas operativos GNU/Linux. Raspbian, una distribución derivada de Debian que está optimizada para el hardware de Raspberry Pi, se lanzó durante julio de 2012 y es la distribución recomendada por la fundación para iniciarse.
+
+GNU/Linux
+Raspbian (distribución oficial)
+Arc Linux
+Ubuntu Mate, Ubuntu Server y Ubuntu 20.10
+Otros:
+OpenElec: centro multimedia
+Retropie: emulador de máquinas arcade y consolas retro
+PiNEt: proyectos de Internet of Thing
+Windows 10 WoA: proyectos de IoT
+
+Características y Accesorios
+SOC Broadcom (CPU + GPU + RAM + controladoras)
+Almacenamiento inerno por microSD
+Salida HDMI/microHDMI
+Alimentación por microUSB de 2,5 A.
+Accesorios: cámara PiCam, pantalla táctil, PiHat (sensores), ...
